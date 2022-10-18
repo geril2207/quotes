@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+.title {
+  text-align: center;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1130px;
+  padding: 0 15px;
+  width: 100%;
+}
+
+.invisible {
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.item {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item__title {
+  height: 22px;
+}
+.items__wrapper {
+  margin-top: 30px;
+}
+
+.item__btns {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.item__btns.visible {
+  opacity: 1;
+  visibility: visible;
+}
